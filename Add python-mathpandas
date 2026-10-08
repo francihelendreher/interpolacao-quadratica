@@ -1,0 +1,76 @@
+import pandas as pd
+
+
+# 1. Criando o DataFrame
+
+dados = {
+    "tempo": [1, 2, 3],
+    "concentracao": [3.00, 5.00, 1.00]
+}
+
+df = pd.DataFrame(dados)
+
+print(df)
+
+
+# 2. Pegando os valores do DataFrame
+
+x1 = df["tempo"][0]
+y1 = df["concentracao"][0]
+
+x2 = df["tempo"][1]
+y2 = df["concentracao"][1]
+
+x3 = df["tempo"][2]
+y3 = df["concentracao"][2]
+
+
+# 3. Resolvendo o sistema de equações
+
+# Equação 1:
+# a + b + c = 3
+
+# Equação 2:
+# 4a + 2b + c = 5
+
+# Equação 3:
+# 9a + 3b + c = 1
+
+
+# Eliminando o c
+
+# 3a + b = 2
+# 8a + 2b = -2
+
+
+# Encontrando a
+
+a = -3
+
+
+# Encontrando b
+
+b = 2 - (3 * a)
+
+
+# Encontrando c
+
+c = y1 - (a * x1**2) - (b * x1)
+
+
+print("a =", a)
+print("b =", b)
+print("c =", c)
+
+
+# 4. Calculando a concentração em 2,5 segundos
+
+tempo_desejado = 2.5
+
+concentracao = (
+    a * tempo_desejado**2
+    + b * tempo_desejado
+    + c
+)
+
+print("Concentração:", concentracao)

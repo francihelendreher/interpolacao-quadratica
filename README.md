@@ -35,4 +35,4 @@ Resolução de um problema matemático utilizando programação
 
 Resultado: 3,75 mol - alternativa D.
 
-Gostei do desafico, me ajudou a entender melhor como o Pandas pode ser usado para organizar dados e como o Python pode ser utilizado para realizar cálculos e resolver problemas a partir desses dados.
+Gostei do desafio, me ajudou a entender melhor como o Pandas pode ser usado para organizar dados e como o Python pode ser utilizado para realizar cálculos e resolver problemas a partir desses dados.

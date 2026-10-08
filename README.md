@@ -1,7 +1,9 @@
 # interpolação quadrática
 Resolvendo um exercício matemático com Pandas e DataFrame.
 
-Neste exercício, usei um problema de concentração em função do tempo para praticar a utilização de Python e Pandas.
+Esse exercício eu retirei do livro de matemática que peguei num espaço público do prédio onde eu trabalho. Atualmente estou fazendo revisão de conteúdo básico para entender melhor as funções e operações lógicas (e também lembrar de algumas coisas que esqueci.)
+
+Usei um problema de concentração em função do tempo para praticar a utilização de Python e Pandas.
 
 Primeiro, criei um DataFrame para organizar os dados de tempo e concentração. A partir dos três pontos fornecidos no exercício, montei uma função de segundo grau:
 
@@ -31,8 +33,8 @@ Função de segundo grau
 
 Resolução de um problema matemático utilizando programação
 
-Resultado: 3,75 mol — alternativa D.
+Resultado: 3,75 mol - alternativa D.
 
-Esse exercício eu retirei do livro de matemática que peguei num espaço público do prédio onde eu trabalho. Atualmente estou faendo revisão de conteúdo básico para entender melhor as funções e operações lógicas (e também lembrar de algumas coisas que esqueci.)
+Esse exercício eu retirei do livro de matemática que peguei num espaço público do prédio onde eu trabalho. Atualmente estou fazendo revisão de conteúdo básico para entender melhor as funções e operações lógicas (e também lembrar de algumas coisas que esqueci.)
 
 Gostei do desafico, me ajudou a entender melhor como o Pandas pode ser usado para organizar dados e como o Python pode ser utilizado para realizar cálculos e resolver problemas a partir desses dados.
